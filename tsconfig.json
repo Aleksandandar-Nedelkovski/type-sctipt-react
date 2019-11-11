@@ -13,11 +13,10 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "isolatedModules": true,  
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
     "jsx": "react"
   },

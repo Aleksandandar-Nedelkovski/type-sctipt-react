@@ -8,8 +8,8 @@ interface IProps {
   DefaultState: IPersonState
 }
 
-export default class PersonalDetails extends React.Component<IProps, IPersonState> {
 
+export default class PersonalDetails extends React.Component<IProps, IPersonState> {
   private defaultState: Readonly<IPersonState>;
   constructor(props: IProps) {
     super(props);
